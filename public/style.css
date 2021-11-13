@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.letters-list {
+  list-style: none;
+}
+.letters-list li {
+  margin-left: 50px;
+  font-size: 20px;
+}

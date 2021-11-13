@@ -1,0 +1,29 @@
+{
+  "name": "computer-acronyms",
+  "version": "1.0.0",
+  "description": "A website with a list of most used computer acronyms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCrackPro/computer-acronyms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCrackPro/computer-acronyms/issues"
+  },
+  "homepage": "https://github.com/GabrielCrackPro/computer-acronyms#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

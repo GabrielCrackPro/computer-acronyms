@@ -334,6 +334,156 @@ const acronyms = [
     description:
       "Problem Exists Between Keyboard and Chair. It means that the user is the cause of an apparent computer problem. PICNIC (Problem In Chair, Not In Computer) is a variation.",
   },
+  {
+    acronym: "PIXEL",
+    description:
+      "PICture ELement. The smallest portion of an image that a device is capable of printing or displaying. Modern pixel count (or resolution) is expressed in SD (Standard Definition: 480p), HD (High Def: 720p), FHD (Full HD: 1080p), QHD (Quad HD), 4K, etc.",
+  },
+  {
+    acronym: "PS/2",
+    description:
+      "Personal System/2. IBM name of certain computer hardware, like the familiar purple and green mouse/keyboard port.",
+  },
+  {
+    acronym: "PSU",
+    description:
+      "Power Supply Unit. It converts the alternating high-voltage current (AC) into direct current (DC), and they also regulate the DC output voltage to the fine tolerances required for modern computing components.",
+  },
+  {
+    acronym: "QR",
+    description:
+      "Quick Response code. A type of matrix (or 2-dimensional) barcode with fast readability and greater storage capacity.",
+  },
+  {
+    acronym: "RAID",
+    description:
+      "Redundant Array of Independent Disks. An arrangement of disk drives to improve data access speed and fault tolerance.",
+  },
+  {
+    acronym: "RAM",
+    description:
+      "Random-Access Memory. Memory that stores information needed for running the system and for program execution.",
+  },
+  {
+    acronym: "RDRAM",
+    description:
+      "Rambus Dynamic Random Access Memory. A very fast and expensive proprietary type of RAM made by Rambus.",
+  },
+  {
+    acronym: "RJ45",
+    description:
+      "Registered Jack-45. An 8-pin connector used to connect a PC to a LAN. Originally used for telephone communications.",
+  },
+  {
+    acronym: "RMA",
+    description:
+      "Return Merchandise Authorization. An RMA number is created to help the buyer return the products to the seller.",
+  },
+  {
+    acronym: "ROM",
+    description:
+      "Read-Only Memory. This memory is not easily writable. It consists of necessary information for the system to operate.",
+  },
+  {
+    acronym: "RFTM",
+    description:
+      "Read The F*** Manual. A not-so-nice way of telling someone that the question they're asking is answered in the manual accompanying a hardware device or software routine.",
+  },
+  {
+    acronym: "SaaS",
+    description:
+      "Software as a Service. Software licensed on a subscription basis and accessed via the Internet. In simpler words, instead of purchasing the software, you are purchasing its usage license—which means the right to use the software hosted in the cloud.",
+  },
+  {
+    acronym: "SATA",
+    description:
+      "Serial Advanced Technology Attachment. A faster interface that replaced the older PATA to connect a HDD to the mobo.",
+  },
+  {
+    acronym: "SCSI",
+    description:
+      "Small Computer System Interface. Pronounced 'skuzzy'.A very fast and reliable interface used to connect a HDD to a computer's motherboard. Usually used only in high-end servers.",
+  },
+  {
+    acronym: "SPOF",
+    description:
+      "Single Point of Failure. This refers to one piece of hardware (or also software) which, if it fails, will render a PC inoperative.",
+  },
+  {
+    acronym: "SRAM",
+    description:
+      "Static Random Access Memory. Very fast RAM that holds data statically. Found in cache memory on HDDs and CPUs.",
+  },
+  {
+    acronym: "SSD",
+    description:
+      "Solid State Drive. A flash-based storage device with no moving parts, which have much faster data access speed than HDDs. Its speed is not affected by fragmentation since they are not sequential devices. It has a limited number of read/write cycles.",
+  },
+  {
+    acronym: "TDP",
+    description:
+      "Thermal Design Power. Maximum amount of heat that a CPU/GPU is expected to produce under workload.",
+  },
+  {
+    acronym: "UEFI",
+    description:
+      "Unified Extensible Firmware Interface. Like BIOS, UEFI is pre-installed and is the first program that runs when booting a PC.",
+  },
+  {
+    acronym: "UPC",
+    description:
+      "Universal Product Code. A code of a scannable strip of black bars over 12 numeric digits assigned to an item.",
+  },
+  {
+    acronym: "UPS",
+    description:
+      "Uninterruptible Power Supply. A battery backup that provides uninterrupted flow of current to the connected devices.",
+  },
+  {
+    acronym: "USB",
+    description:
+      "Universal Serial Bus. A plug and play interface that allows a computer to connect to peripherals. USB 1.0 supports data transfer rates of 12 MBps, USB 2.0 (hi-speed USB) supports a transfer rate of up to 60 MBps, USB 3.0 (SuperSpeed USB) reached 640 MBps. USB type-C sockets, now featured on modern-day Android smartphones and other devices, allow cable reversibility.",
+  },
+  {
+    acronym: "VGA",
+    description:
+      "Video Graphics Array. The analogue interface standard for attachment of monitors and other VDUs to a computer.",
+  },
+  {
+    acronym: "VDU",
+    description:
+      "Visual Display Unit. A monitor, projector, or other device used to display or project a computer's visual data.",
+  },
+  {
+    acronym: "VRAM",
+    description:
+      "Video Random Access Memory. Memory used by a dedicated graphics card, motherboard or CPU to store image data.",
+  },
+  {
+    acronym: "WEBINAR",
+    description:
+      "WEB semINAR. An engaging online event where a speaker, or small group of speakers, deliver a presentation to a large audience who may participate by submitting questions.",
+  },
+  {
+    acronym: "WIDGET",
+    description:
+      "WIndow gaDGET. An application, or a component of a GUI, that enables a user to perform a function or access a service.",
+  },
+  {
+    acronym: "WIFI",
+    description:
+      "Often wrongly thought as WIreless FIdelity. Brand name for a technology to achieve a wireless connection to a network.",
+  },
+  {
+    acronym: "WIMP",
+    description:
+      "Windows, Icons, Menus and Pointer. A graphical environment intending to simplify and demystify computer use.",
+  },
+  {
+    acronym: "WWW",
+    description:
+      "World Wide Web, or simply, Web. An information service that operates via the writing of the internet",
+  },
 ];
 
 console.log(acronyms);

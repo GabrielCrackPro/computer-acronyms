@@ -507,10 +507,24 @@ acronyms.forEach((acronym) => {
 
   acronymItem.querySelector(".acronym").title = "Click to open in Wikipedia";
   acronymItem.style.cursor = "pointer";
+
   acronymItem.querySelector(".acronym").addEventListener("click", () => {
-    window.open(
-      `https://en.wikipedia.org/wiki/${acronym.acronym.toLowerCase()}`
-    );
+    const wikiFrame = document.createElement("iframe");
+    wikiFrame.src = `https://www.wikipedia.com/wiki/${acronym.acronym}`;
+    wikiFrame.style.width = "50%";
+    wikiFrame.style.height = "50%";
+    wikiFrame.style.position = "fixed";
+    wikiFrame.style.top = "200px";
+    wikiFrame.style.left = "320px";
+    wikiFrame.style.zIndex = "10";
+    wikiFrame.style.border = "2px solid #212529";
+
+    wikiFrame.addEventListener("mouseleave", () => {
+      wikiFrame.style.display = "none";
+      wikiFrame.remove();
+    });
+
+    acronymItem.appendChild(wikiFrame);
   });
 
   acronymsContainer.appendChild(acronymItem);

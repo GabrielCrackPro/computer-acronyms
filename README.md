@@ -6,4 +6,4 @@
 
 A website with a list of most used computer acronyms
 
-Visit the website [here](https://www.computer-acronyms.org)
+Visit the website [here](https://www.computeracronyms.org)

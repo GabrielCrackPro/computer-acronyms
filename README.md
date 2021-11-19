@@ -7,3 +7,8 @@
 A website with a list of most used computer acronyms
 
 Visit the website [here](https://www.computeracronyms.org)
+
+## TODO
+
+- [ ] Add a search bar
+- [ ] Export acronyms into a JSON file

@@ -513,11 +513,19 @@ acronyms.forEach((acronym) => {
     wikiFrame.src = `https://www.wikipedia.com/wiki/${acronym.acronym}`;
     wikiFrame.style.width = "50%";
     wikiFrame.style.height = "50%";
-    wikiFrame.style.position = "fixed";
+    wikiFrame.style.position = "absolute";
     wikiFrame.style.top = "200px";
     wikiFrame.style.left = "320px";
     wikiFrame.style.zIndex = "10";
     wikiFrame.style.border = "2px solid #212529";
+
+    if (window.innerWidth < 768) {
+      wikiFrame.style.position = "fixed";
+      wikiFrame.style.width = "100%";
+      wikiFrame.style.height = "100%";
+      wikiFrame.style.top = "0";
+      wikiFrame.style.left = "0";
+    }
 
     wikiFrame.addEventListener("mouseleave", () => {
       wikiFrame.style.display = "none";

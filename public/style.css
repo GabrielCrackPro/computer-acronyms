@@ -7,6 +7,18 @@
   background: #212529;
   color: #fff;
 }
+#usage-notes {
+  font-size: 1.1rem;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid #212529;
+  color: #212529;
+}
+#usage-notes i {
+  font-size: 1.7rem;
+  margin-right: 5px;
+}
 a {
   text-decoration: none;
   color: #000;

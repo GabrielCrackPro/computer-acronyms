@@ -16,3 +16,11 @@ a:hover {
 .description {
   font-size: 20px;
 }
+.acronym:hover {
+  text-decoration: underline;
+  transition: text-decoration 1s ease;
+}
+.acronym:not(:hover) {
+  text-decoration: none;
+  transition: text-decoration 1s ease;
+}

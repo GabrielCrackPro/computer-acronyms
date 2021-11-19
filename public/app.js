@@ -485,12 +485,33 @@ const acronyms = [
       "World Wide Web, or simply, Web. An information service that operates via the writing of the internet",
   },
 ];
-
-console.log(acronyms);
-
 const acronymsContainer = document.querySelector(".acronyms");
+
+const copyToClipboard = (e) => {
+  const text = e.target.parentElement.querySelector(".description").textContent;
+  const textArea = document.createElement("textarea");
+  textArea.value = text;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand("copy"); // TODO: Replace this with other method
+  textArea.remove();
+};
 acronyms.forEach((acronym) => {
   const acronymItem = document.createElement("li");
   acronymItem.innerHTML = `<span class="acronym fw-bold">${acronym.acronym}</span> - <span class="description">${acronym.description}</span>`;
+  acronymItem.querySelector(".description").title = "Click to copy";
+  acronymItem.style.cursor = "pointer";
+  acronymItem
+    .querySelector(".description")
+    .addEventListener("click", copyToClipboard);
+
+  acronymItem.querySelector(".acronym").title = "Click to open in Wikipedia";
+  acronymItem.style.cursor = "pointer";
+  acronymItem.querySelector(".acronym").addEventListener("click", () => {
+    window.open(
+      `https://en.wikipedia.org/wiki/${acronym.acronym.toLowerCase()}`
+    );
+  });
+
   acronymsContainer.appendChild(acronymItem);
 });

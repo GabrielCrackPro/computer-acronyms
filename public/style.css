@@ -12,13 +12,6 @@ a:hover {
   color: #ff0000;
   text-decoration: underline;
 }
-.letters-list {
-  list-style: none;
-}
-.letters-list li {
-  margin-left: 50px;
-  font-size: 20px;
-}
 .acronym,
 .description {
   font-size: 20px;
